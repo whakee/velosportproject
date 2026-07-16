@@ -184,3 +184,8 @@ body {
     align-items: flex-start;
   }
 }
+
+.logo img {
+  width: auto;
+  height: 80px;
+}
