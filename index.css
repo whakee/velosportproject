@@ -189,3 +189,144 @@ body {
   width: auto;
   height: 80px;
 }
+.reviews{
+    width:80%;
+    max-width:900px;
+    margin:50px auto;
+}
+
+.reviews h2{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+.review-card{
+    display:flex;
+    align-items:flex-start;
+    gap:20px;
+    background:#fff;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.avatar{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.review-content h3{
+    margin-bottom:5px;
+}
+
+.stars{
+    color:gold;
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+.review-content p{
+    color:#555;
+    line-height:1.6;
+}
+
+@media(max-width:600px){
+    .review-card{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+}
+.footer{
+    background:#1b1b1b;
+    color:#fff;
+    padding:50px 10%;
+    margin-top:50px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.footer-logo{
+    flex:1;
+    min-width:250px;
+}
+
+.footer-logo img{
+    width:90px;
+    margin-bottom:10px;
+    filter: invert(1);
+}
+
+.footer-logo h2{
+    color:#43a047;
+    margin-bottom:10px;
+}
+
+.footer-logo p{
+    line-height:1.7;
+    color:#ccc;
+}
+
+.footer-links,
+.footer-contact{
+    flex:1;
+    min-width:200px;
+}
+
+.footer h3{
+    margin-bottom:15px;
+    color:#43a047;
+}
+
+.footer-links ul{
+    list-style:none;
+}
+
+.footer-links li{
+    margin-bottom:10px;
+}
+
+.footer-links a{
+    text-decoration:none;
+    color:#ddd;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#43a047;
+}
+
+.footer-contact p{
+    margin-bottom:10px;
+    color:#ddd;
+}
+
+.footer-bottom{
+    text-align:center;
+    margin-top:40px;
+    padding-top:20px;
+    border-top:1px solid #444;
+    color:#aaa;
+}
+
+@media(max-width:768px){
+    .footer-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .footer-logo img{
+        margin:auto;
+        display:block;
+        margin-bottom:15px;
+    }
+}
