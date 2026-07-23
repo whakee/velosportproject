@@ -9,7 +9,7 @@ const tovari = [
         name: "downhill",
         category: "mtb",
         price: "1500$",
-        image: "https://wallpaperaccess.com/full/2150980.jp"
+        image: "https://wallpaperaccess.com/full/2150980.jpg"
     },
     {
         name: "road bike",
@@ -18,7 +18,7 @@ const tovari = [
         image: "https://flatironbike.com/wp-content/uploads/2024/06/choosing_a_beginner_road_bicycle.jpg"
     },
     {
-        name: "road nike",
+        name: "road bike",
         category: "road bikes",
         price: "1000$",
         image: "https://bikerumor.com/wp-content/uploads/2020/04/2021-Giant-TCR-road-bike_new-lightweight-carbon-aero-road-race-bike-of-Team-CCC_photo-by-Chris-Auld.jpg"
@@ -29,4 +29,22 @@ const tovari = [
         price: "200$",
         image: "https://content.westbrookcycles.co.uk/medium/ecd30dca_t213ttcc-f9-side-alma_m50_over.jpg"
     },
-]
+];
+
+const products = document.querySelector("#products");
+
+for (let bike of tovari) {
+    products.innerHTML += `
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="${bike.image}" class="card-img-top" alt="${bike.name}">
+                <div class="card-body">
+                    <h5 class="card-title">${bike.name}</h5>
+                    <p><b>Категорія:</b> ${bike.category}</p>
+                    <p><b>Ціна:</b> ${bike.price}</p>
+                    <button class="btn btn-primary">Купити</button>
+                </div>
+            </div>
+        </div>
+    `;
+}

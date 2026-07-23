@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Навігація</title>
   <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="./catalog.css" />
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
@@ -40,53 +41,56 @@
       <div class="collapse d-md-none" id="mobileMenu">
         <ul class="mobile-links">
           <li><a href="./index.html">Головна</a></li>
-            <li><a href="./catalog.html">Каталог</a></li>
+          <li><a href="./catalog.html">Каталог</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
- 
+  <main class="container my-5">
+    <div class="row" id="products"></div>
+  </main>
 
-<footer class="footer">
+  <footer class="footer">
     <div class="footer-container">
 
-        <div class="footer-logo">
-            <img src="./imges/logo.png" alt="BikeSport">
-            <h2>BikeSport</h2>
-            <p>
-                BikeSport — все для справжніх поціновувачів велоспорту.
-                Якісні велосипеди, аксесуари та спорядження для комфортних поїздок.
-            </p>
-        </div>
+      <div class="footer-logo">
+        <img src="./imges/logo.png" alt="BikeSport">
+        <h2>BikeSport</h2>
+        <p>
+          BikeSport — все для справжніх поціновувачів велоспорту.
+          Якісні велосипеди, аксесуари та спорядження для комфортних поїздок.
+        </p>
+      </div>
 
-        <div class="footer-links">
-            <h3>Навігація</h3>
-            <ul>
-              <li><a href="./index.html">Головна</a></li>
-                <li><a href="./catalog.html">Каталог</a></li>
-                <li><a href="./index.html#reviews">Відгуки</a></li>
-                <li><a href="./index.html#contact">Контакти</a></li>
-            </ul>
-        </div>
+      <div class="footer-links">
+        <h3>Навігація</h3>
+        <ul>
+          <li><a href="./index.html">Головна</a></li>
+          <li><a href="./catalog.html">Каталог</a></li>
+          <li><a href="./index.html#reviews">Відгуки</a></li>
+          <li><a href="./index.html#contact">Контакти</a></li>
+        </ul>
+      </div>
 
-        <div class="footer-contact">
-            <h3>Контакти</h3>
-            <p>📍 Львів, Україна</p>
-            <p>📞 +380 99 123 45 67</p>
-            <p>✉ bikesport@gmail.com</p>
-        </div>
+      <div class="footer-contact">
+        <h3>Контакти</h3>
+        <p>📍 Львів, Україна</p>
+        <p>📞 +380 99 123 45 67</p>
+        <p>✉ bikesport@gmail.com</p>
+      </div>
 
     </div>
 
     <div class="footer-bottom">
-        © 2026 BikeSport. Усі права захищені.
+      © 2026 BikeSport. Усі права захищені.
     </div>
-</footer>
+  </footer>
 
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./catalog.js"></script>
 </body>
 
 </html>
