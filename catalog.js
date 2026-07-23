@@ -27,7 +27,7 @@ const tovari = [
         name: "mountain bike",
         category: "mtb",
         price: "200$",
-        image: "https://content.westbrookcycles.co.uk/medium/ecd30dca_t213ttcc-f9-side-alma_m50_over.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8tMGwhELrKj52GT0-r6TPW5qWU0N95YrZ7AXAqdmkfkerKq816KDWD60&s=10"
     },
 ];
 
